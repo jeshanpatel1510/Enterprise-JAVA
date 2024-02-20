@@ -1,0 +1,3 @@
+test_servlet.class
+com\mycompany\sevlets\test1\resources\JakartaEE10Resource.class
+com\mycompany\sevlets\test1\JakartaRestConfiguration.class

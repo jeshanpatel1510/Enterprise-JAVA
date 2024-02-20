@@ -1,0 +1,4 @@
+ReqResServlet2.class
+com\mycompany\sevlets\servlets\JakartaRestConfiguration.class
+com\mycompany\sevlets\servlets\resources\JakartaEE10Resource.class
+ReqResServlet.class
