@@ -69,7 +69,8 @@ public class Login extends HttpServlet {
             }
 
         } catch (Exception e) {
-            System.err.println("Error : " + e.getMessage());
+            request.setAttribute("message-type", "exception");
+            request.setAttribute("message", "Exception : "+e.getMessage());
         }
     }
 

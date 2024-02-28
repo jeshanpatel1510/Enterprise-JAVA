@@ -48,10 +48,13 @@ public class Register extends HttpServlet {
             int res = query.executeUpdate(sql);
             
             if(res == 1){
-                response.sendRedirect("/Login");
+                request.setAttribute("message-type", "success");
+                request.setAttribute("message", "Signed Up Successfully!!");
+                response.sendRedirect("Message.jsp");
             }
         } catch (Exception e) {
-            System.err.println("Error : "+e.getMessage());
+            request.setAttribute("message-type", "exception");
+            request.setAttribute("message", "Exception : "+e.getMessage());
         }
     }
 

@@ -35,6 +35,11 @@
             <artifactId>activemq-all</artifactId>
             <version>5.16.3</version>
         </dependency>
+        <dependency>
+            <artifactId>mysql</artifactId>
+            <groupId>mysql-connector-java</groupId>
+            <version>8.0.32</version>
+        </dependency>
     </dependencies>
     
     <build>

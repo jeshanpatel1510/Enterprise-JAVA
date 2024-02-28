@@ -1,0 +1,7 @@
+Servlets\Register.class
+Servlets\Login.class
+fashionstore\resources\JakartaEE10Resource.class
+Models\User.class
+fashionstore\JakartaRestConfiguration.class
+Models\CategoryClass.class
+Models\Category.class
